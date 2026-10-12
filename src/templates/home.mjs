@@ -30,7 +30,7 @@ function heroSection() {
     <p class="hero__lead" data-reveal style="--d:.5s">Un spațiu confortabil, modern și relaxant pentru ședințe de psihoterapie, consiliere sau coaching, individuale, în cuplu sau de grup, dezvoltare personală și intervizare.</p>
     <div class="btn-row" data-reveal style="--d:.65s">
       <a class="btn btn--light" href="${site.bookingUrl}" target="_blank" rel="noopener"><span>Rezervă un cabinet</span>${icons.arrowUpRight}</a>
-      <a class="btn btn--ghost-light" href="#terapeuti"><span>Cunoaște terapeuții</span>${icons.arrow}</a>
+      <a class="btn btn--ghost-light" href="#terapeuti"><span>Cunoaște terapeuții</span>${icons.arrowDown}</a>
     </div>
   </div>
   <div class="hero__bottom container">

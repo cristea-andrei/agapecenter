@@ -5,6 +5,7 @@ const svg = (body, cls = '') =>
 
 export const icons = {
   arrow: svg('<path d="M5 12h14M13 6l6 6-6 6"/>', 'icon--arrow'),
+  arrowDown: svg('<path d="M12 5v14M6 13l6 6 6-6"/>', 'icon--arrow-down'),
   arrowLeft: svg('<path d="M19 12H5M11 6l-6 6 6 6"/>'),
   arrowUpRight: svg('<path d="M7 17 17 7M8 7h9v9"/>'),
   close: svg('<path d="M6 6l12 12M18 6 6 18"/>'),
