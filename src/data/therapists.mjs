@@ -270,6 +270,7 @@ export const therapists = [
     tags: ['Integrativ'],
     phone: '+40726673872',
     whatsapp: 'https://wa.me/40726673872',
+    facebook: 'https://www.facebook.com/profile.php?id=100076291722517',
     pull: {
       text: 'Acționează ca și când ar fi așa cum îți imaginezi și vei deveni întocmai gândurilor tale.',
       author: 'Joseph Murphy',
