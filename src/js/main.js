@@ -48,6 +48,8 @@
   /* ---------- Header ---------- */
   const header = $('[data-header]');
   const hero = $('[data-hero]');
+  // Pe mobil (cât timp e vizibil meniul burger) header-ul rămâne mereu fix.
+  const mobileNav = matchMedia('(max-width: 1019px)');
   let lastY = scrollY;
   const onHeader = () => {
     const y = scrollY;
@@ -55,8 +57,8 @@
     header.classList.toggle('is-scrolled', y > threshold);
     const goingDown = y > lastY + 4;
     const goingUp = y < lastY - 4;
-    if (goingDown && y > 400 && !document.body.classList.contains('menu-open')) header.classList.add('is-hidden');
-    else if (goingUp || y < 400) header.classList.remove('is-hidden');
+    if (goingDown && y > 400 && !mobileNav.matches && !document.body.classList.contains('menu-open')) header.classList.add('is-hidden');
+    else if (goingUp || y < 400 || mobileNav.matches) header.classList.remove('is-hidden');
     lastY = y;
   };
 

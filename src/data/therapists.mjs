@@ -13,7 +13,7 @@ export const therapists = [
   {
     slug: 'terapeut-codruta-cristea',
     name: 'Codruța Cristea',
-    role: 'Psiholog, Hipnoterapie, Dezvoltare Personală',
+    role: 'Psihoterapeut, Psiholog Clinician, Hipnoterapeut',
     photo: 'codruta-cristea',
     focus: '50% 30%',
     tags: ['Cognitiv-comportamental', 'Hipnoterapie', 'Dezvoltare personală'],
@@ -56,34 +56,6 @@ export const therapists = [
       { n: 7, alt: 'The Monroe Institute: programul Lifeline' },
       { n: 8, alt: 'The Monroe Institute: programul Guidelines' },
       { n: 9, alt: 'Usui Reiki Ryoho, gradele I și II' },
-    ],
-  },
-  {
-    slug: 'terapeut-florina-bogdan',
-    name: 'Florina Bogdan',
-    role: 'Psiholog, Psihoterapeut în formare în Psihoterapie Sistemică Centrată pe Emoții (EFT)',
-    photo: 'florina-bogdan',
-    focus: '62% 35%',
-    tags: ['Sistemic', 'EFT'],
-    phone: '+40722543029',
-    whatsapp: 'https://wa.me/40722543029',
-    facebook: 'https://www.facebook.com/profile.php?id=100088000031000',
-    pull: {
-      text: 'Fiecare om își trăiește propria călătorie, mai grea sau mai ușoară, mai lungă sau mai scurtă, continuă sau întreruptă.',
-    },
-    body: [
-      {
-        type: 'lead',
-        html: 'Fiecare om își trăiește propria călătorie, mai grea sau mai ușoară, mai lungă sau mai scurtă, continuă sau întreruptă. Într-un fel sau altul pornim de la naștere, și chiar mai devreme, în această minunată călătorie a vieții, culegând și elaborând pe parcurs trăiri, gânduri, opinii, emoții, atitudini, convingeri, valori, limite.',
-      },
-      {
-        type: 'p',
-        html: 'Și ele cresc alături de noi, având propria lor viață; unele noi apar, altele dispar sau se transformă. Dar din orice punct al vieții am privi, toate ne reprezintă și ne definesc în raport cu lumea în care trăim. Nimic din ce este în jurul nostru nu își va fi pus deja amprenta asupra a ceea ce suntem în fiecare clipă, doar puțin diferit de clipa anterioară.',
-      },
-      {
-        type: 'p',
-        html: 'Cea mai frumoasă călătorie a mea a început la nașterea fiului meu. Și chiar dacă această călătorie începuse cu mult înainte de acel moment, abia nașterea lui mi-a resetat viața și m-a suit într-un carusel care m-a determinat să pornesc pe acest drum, al cunoașterii de sine și totodată al dorinței de a-i ajuta pe ceilalți.',
-      },
     ],
   },
   {
