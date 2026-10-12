@@ -268,8 +268,8 @@ export const therapists = [
     photo: 'elena-tonciu',
     focus: '50% 35%',
     tags: ['Integrativ'],
-    phone: '+40721785427',
-    whatsapp: 'https://wa.me/40721785427',
+    phone: '+40726673872',
+    whatsapp: 'https://wa.me/40726673872',
     pull: {
       text: 'Acționează ca și când ar fi așa cum îți imaginezi și vei deveni întocmai gândurilor tale.',
       author: 'Joseph Murphy',
