@@ -91,7 +91,7 @@ export const services = [
 ];
 
 // Filtrele din secțiunea „Terapeuți” (etichetele vin din therapists.mjs).
-export const teamFilters = ['Integrativ', 'Cognitiv-comportamental', 'Sistemic', 'Copii & adolescenți', 'Cuplu & familie'];
+export const teamFilters = ['Integrativ', 'Cognitiv-comportamental', 'Sistemic', 'Psihanalitic', 'Copii & adolescenți', 'Cuplu & familie'];
 
 export const pricing = [
   {

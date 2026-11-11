@@ -410,4 +410,45 @@ export const therapists = [
       },
     ],
   },
+  {
+    slug: 'adriana-andrei',
+    name: 'Adriana Andrei',
+    role: 'Psiholog clinician autonom, Psihoterapeut în supervizare',
+    photo: 'adriana-andrei',
+    focus: '50% 30%',
+    tags: ['Psihanalitic', 'Copii & adolescenți'],
+    phone: '+40725574742',
+    whatsapp: 'https://wa.me/40725574742',
+    facebook: 'https://www.facebook.com/share/19yTCowxFM/',
+    pull: {
+      text: 'Scopul terapiei nu este de a corecta trecutul, ci de a-i permite pacientului să își înfrunte propria istorie și să o jelească.',
+      author: 'Alice Miller',
+    },
+    body: [
+      {
+        type: 'lead',
+        html: 'Sunt psiholog clinician autonom și psihoterapeut în supervizare. Lucrez cu adulți, adolescenți și copii, oferind consiliere psihologică și psihoterapie de orientare psihanalitică.',
+      },
+      {
+        type: 'p',
+        html: 'Cred că fiecare om poartă în sine o poveste, uneori cunoscută și înțeleasă, alteori ascunsă în spatele unor emoții greu de exprimat, al unor suferințe sau al unor experiențe care continuă să își facă simțită prezența în viața de zi cu zi.',
+      },
+      {
+        type: 'p',
+        html: 'Uneori ajungem în terapie pentru că ne este greu, pentru că ne simțim blocați, pentru că repetăm aceleași experiențe în relațiile noastre sau pentru că pur și simplu nu mai înțelegem ce se întâmplă cu noi. Alteori, venim din dorința de a ne cunoaște mai bine, de a înțelege cine suntem și de ce simțim, gândim sau reacționăm într-un anumit fel.',
+      },
+      {
+        type: 'p',
+        html: 'Cred că terapia nu înseamnă să devenim altcineva și nici să ștergem ceea ce am trăit, ci să putem privi propria poveste cu mai multă înțelegere și mai puțină judecată. Să ne apropiem de acele părți din noi pe care poate le-am ascuns, le-am ignorat sau le-am considerat greu de acceptat. Să găsim, treptat, libertatea de a nu mai fi prizonierii unor experiențe vechi.',
+      },
+      {
+        type: 'p',
+        html: 'În relația terapeutică, îmi doresc să ofer un spațiu în care fiecare persoană să se simtă ascultată, primită și înțeleasă, fără teama de a fi judecată. Un spațiu în care să existe timp pentru întrebări, pentru emoții, pentru tăceri și pentru descoperiri. Cred că schimbarea nu se produce prin soluții oferite din exterior, ci se construiește treptat, în ritmul fiecăruia, printr-o mai bună înțelegere de sine și printr-o relație în care experiențele personale pot căpăta un sens nou.',
+      },
+      {
+        type: 'p',
+        html: 'Dincolo de metode și concepte terapeutice, cred în importanța întâlnirii dintre doi oameni, în puterea de a fi ascultat cu adevărat și în posibilitatea fiecăruia de a se înțelege mai profund. Uneori, acesta este începutul unei schimbări importante: momentul în care putem începe să ne privim pe noi înșine cu mai multă blândețe.',
+      },
+    ],
+  },
 ];
